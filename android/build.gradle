@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.mbivutech.flutter_windowmanager"
+
     compileSdkVersion 28
 
     defaultConfig {
